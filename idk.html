@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+      ul.navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+      ul.navbar li {
+        float: left;
+        cursor:pointer;
+    }
+
+      ul.navbar li {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+      ul.navbar li:hover {
+        background-color: #111;
+        transition: 1s;
+    }
+
+
+      .news-section {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+      .news-list {
+        flex-basis: 50%;
+        padding: 20px;
+    }
+
+      .news-list h2 {
+        color: #333;
+    }
+    
+      .news-list p {
+        color: #555;
+    }
+
+      .news-images {
+        flex-basis: 50%;
+        padding: 20px;
+    }
+
+      .news-images img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+      .news-images img:hover{
+        transition: 1s;
+        opacity: 0.7;
+        transform:scale(115%);
+    }
+  </style>
+</head>
+<body>
+  <ul class="navbar">
+    <li>Home</li>
+    <li>About</li>
+    <li>Services</li>
+    <li>Contact Us</li>
+    
+  </ul>
+  <marquee style="background-color: red;margin-top: 10px;">Breaking news, interchangeably termed late-breaking news and also known as a special report or special coverage or news flash, is a current issue that broadcasters feel warrants the interruption of scheduled programming or current news in order to report its details.</marquee>
+  
+  <div class="news-section">
+    <div class="news-list">
+      <h2>Karachi:</h2>
+      <p>Pakistan Prime Minister Shehbaz Sharif has said that Islamabad is looking to forge partnerships for its geo-economics strategy, especially within the region, which apparently includes New Delhi.</p>
+      <h2>Lahore:</h2>
+      <p>Bilawal, while addressing a press conference in Karachi on Thursday, said, "The only advice I can give to the PTI is that what is done is done. The ones involved in this will have to answer for it."</p>
+      <h2>Islamabad:</h2>
+      <p>Money Laundering Case London: Altaf Hussain's Game is About to Over.
+      </p>
+
+    </div>
+    
+    <div class="news-images">
+      <img src="img/maxresdefault.jpg">
+      <img src="img/Array92188.jpg">
+      <img src="img/money-laundering-case-london-altaf-hussain-s-game-is-about-to-over.jpg">
+
+    </div>
+  </div>
+</body>
+</html>
